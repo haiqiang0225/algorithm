@@ -21,7 +21,7 @@ public:
         if (node == NULL) return 0;
         int lmax = maxPath(node->left, curMax);
         int rmax = maxPath(node->right, curMax);
-        curMax = max(curMax, max(0, lmax)+max(0, rmax)+node->val);
+        curMax = max(curMax, lmax + rmax + node->val);
         return max(0, max(lmax,rmax)+node->val);
     }
     
