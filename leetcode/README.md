@@ -1,1 +1,1 @@
-source code
+algorithm of leetcode
