@@ -18,6 +18,8 @@
 <p>&nbsp;</p>
 
 <p><strong>注意</strong>：本题与主站 206 题相同：<a href="https://leetcode-cn.com/problems/reverse-linked-list/" one-link-mark="yes">https://leetcode-cn.com/problems/reverse-linked-list/</a></p>
+
+
 ```java
 class Solution {
     public ListNode reverseList(ListNode head) {
